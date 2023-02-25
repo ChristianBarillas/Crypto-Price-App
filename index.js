@@ -1,3 +1,5 @@
+
+
 fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cdogecoin%2Ccardano&vs_currencies=usd&include_24hr_change=true').then(res => res.json()).then(json=>{
 
 const container = document.querySelector('.container');

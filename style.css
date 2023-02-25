@@ -18,6 +18,8 @@ body{
     display: flex;
     width: 400px;
     height: 80px;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .coin .coin-log{
@@ -53,7 +55,7 @@ height: 70%;
     color: white;
     font-size: 10px;
     font-weight: 400;
-    margin: 5px;
+    margin: 5px 0 0 2px;
 }
 
 .coin .coin-price {
@@ -62,6 +64,7 @@ height: 70%;
     align-items: center;
     margin-left: auto;
     text-align: right;
+    padding: 8px 22px 0 0;
 }
 
 .coin .coin-price .price{
@@ -75,6 +78,7 @@ height: 70%;
     font-size: 15px;
     font-weight: 400;
     color: white;
+    margin-top: -30px;
 }
 
 .coin.rising {
