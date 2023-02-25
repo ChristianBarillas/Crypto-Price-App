@@ -50,9 +50,51 @@ height: 70%;
 
 .coin .coin-name span{
 
-    color: whitesmoke;
+    color: white;
     font-size: 10px;
     font-weight: 400;
     margin: 5px;
 }
 
+.coin .coin-price {
+
+    display: grid;
+    align-items: center;
+    margin-left: auto;
+    text-align: right;
+}
+
+.coin .coin-price .price{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: -6px;
+}
+
+.coin .coin-price .change {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.coin.rising {
+
+    background: linear-gradient(45deg, rgb(11, 11, 32), rgb(0, 143, 38)) ;
+}
+
+.coin.rising .coin-price .price{
+
+    color: greenyellow;
+
+
+    
+}
+
+.coin.falling {
+
+    background:linear-gradient(90deg, rgb(0, 0, 0), rgb(68, 1, 1) );
+}
+
+.coin.falling .coin-price .price{
+    color: red;
+}
