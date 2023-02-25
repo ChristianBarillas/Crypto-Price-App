@@ -9,8 +9,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh
-    style;
+    height: 100vh;
+    background-color: rgb(1, 144, 220);
     
 }
 
@@ -22,4 +22,26 @@ body{
 
 .coin .coin-log{
     width: 80px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.coin .coin-log img {
+width: 70%;
+height: 70%;
+
+}
+
+.coin .coin-name{
+    display: flex;
+    place-items: center;
+    height: 100%;
+}
+
+.coin .coin-name h3 {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
 }
