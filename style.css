@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+    style;
+    
+}
+
+.coin{
+    display: flex;
+    width: 400px;
+    height: 80px;
+}
+
+.coin .coin-log{
+    width: 80px;
+}
